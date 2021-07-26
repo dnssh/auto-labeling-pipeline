@@ -91,6 +91,11 @@ Options.register(
     mp.AmazonRekognitionLabelDetectionTemplate
 )
 Options.register(
+    t.ImageClassification,
+    mo.CustomImageModel,
+    mp.GCPImageLabelDetectionTemplate
+)
+Options.register(
     t.SpeechToText,
     mo.GCPSpeechToTextRequestModel,
     mp.GCPSpeechToTextTemplate
